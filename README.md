@@ -50,7 +50,7 @@ npm install @beland/ecs-scene-utils -B
 3) Import the library into the scene's script. Add this line at the start of your `game.ts` file, or any other TypeScript files that require it:
 
 ```ts
-import * as utils from '@bld/ecs-scene-utils'
+import * as utils from '@beland/ecs-scene-utils'
 ```
 
 4. In your TypeScript file, write `utils.` and let the suggestions of your IDE show the available helpers.
