@@ -1,6 +1,6 @@
 {
   "name": "@beland/ecs-scene-utils",
-  "version": "0.0.1-dev",
+  "version": "0.0.2-dev",
   "description": "A collection of helpers to make it easier to build a Beland scene using the SDK.",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/belandproject/beland-ecs-utils#readme",
   "devDependencies": {
     "@microsoft/api-extractor": "^7.13.2",
-    "beland-ecs": "latest",
+    "beland-ecs": "0.0.6-dev",
     "glob": "^7.1.6",
     "prettier": "^1.19.1",
     "rollup": "^2.35.1",
@@ -47,6 +47,6 @@
     "tsdoc-metadata.json"
   ],
   "peerDependencies": {
-    "beland-ecs": "1.x.x"
+    "beland-ecs": "0.0.6-dev"
   }
 }
